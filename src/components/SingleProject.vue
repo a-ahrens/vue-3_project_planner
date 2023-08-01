@@ -5,7 +5,7 @@
         <div class="icons">
             <span class="material-icons">edit</span>
             <span @click="deleteProject" class="material-icons">delete</span>
-            <span @click="toggleComplete" class="material-icons">done</span>
+            <span @click="toggleComplete" class="material-icons tick">done</span>
         </div>
 
     </div>
@@ -78,4 +78,7 @@ h3 {
     border-left: 4px solid #00ce89;
 }
 
+.project.complete .tick {
+    color:#00ce89;
+}
 </style>
